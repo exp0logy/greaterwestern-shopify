@@ -3,13 +3,24 @@
   --cart-aside-summary-height-with-discount: 300px;
   --cart-aside-summary-height: 250px;
   --grid-item-width: 355px;
-  --header-height: 64px;
+  --header-height: 90px;
   --color-dark: #000;
   --color-light: #fff;
 }
 
 img {
   border-radius: 4px;
+}
+
+/* Set fontface and other sitewide properties */
+body{
+  font-family: 'Chakra Petch',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* Boxed @ 1920px & Center Content */
+.container{
+  max-width: 1920px !important; 
+  margin: auto;
 }
 
 /*
@@ -176,7 +187,7 @@ button.reset:hover:not(:has(> *)) {
   @media (min-width: 45em) {
     display: flex;
     grid-gap: 1rem;
-    margin-left: 3rem;
+    margin: auto;
   }
 }
 
@@ -188,7 +199,6 @@ button.reset:hover:not(:has(> *)) {
   align-items: center;
   display: flex;
   grid-gap: 1rem;
-  margin-left: auto;
 }
 
 /*
@@ -483,4 +493,65 @@ button.reset:hover:not(:has(> *)) {
 
 .account-logout {
   display: inline-block;
+}
+
+/* Chakra Font (Imported via google stylesheet) */
+.chakra-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }

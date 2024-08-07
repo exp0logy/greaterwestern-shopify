@@ -1,9 +1,6 @@
-# Hydrogen template: Skeleton
+# Azoria - Landing page.
 
-Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
-
-[Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
-[Get familiar with Remix](https://remix.run/docs/en/v1)
+This is a Hydrogen Store for [Greater Western Mechanical](https://greaterwestern.com.au), built with the below. 
 
 ## What's included
 
@@ -40,6 +37,6 @@ npm run build
 npm run dev
 ```
 
-## Setup for using Customer Account API (`/account` section)
 
-Follow step 1 and 2 of <https://shopify.dev/docs/custom-storefronts/building-with-the-customer-account-api/hydrogen#step-1-set-up-a-public-domain-for-local-development>
+___
+Forked using npm create @shopify.
